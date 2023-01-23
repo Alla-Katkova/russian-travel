@@ -8,11 +8,11 @@
     font-family: 'Inter var', sans-serif;
     color: #FFFFFF;
   }
-
 }
 
 .page {
   background: #2A2C2F;
+  width: 100vw;
 }
 
 .header {
@@ -21,7 +21,6 @@
   padding-top: 16px;
   padding-left: 16px;
   padding-right: 16px;
-
 }
 
 .header__logo {
@@ -50,7 +49,6 @@
 
 @media screen and (min-width: 768px) {
   .header {
-    background: red;
     padding-top: 28px;
     padding-left: 24px;
     padding-right: 24px;
@@ -69,16 +67,13 @@
 
 @media screen and (min-width: 1024px) {
   .header {
-    background: green;
-
     padding-left: 48px;
     padding-right: 48px;
   }
 }
 
 @media screen and (min-width: 1280px) {
-  .header {
-    background: yellow;
+  .header {  
   }
 }
 
@@ -107,8 +102,8 @@
 }
 
 .lead__main-illustration {
-  width: 320px;
-  height: 200px;
+  width: 100%;
+  
   margin-left: 2px;
   margin-right: 2px;
   margin-top: 40px;
@@ -117,7 +112,6 @@
 .lead__caption {
   margin-left: 16px;
   margin-top: 8px;
-  margin-right: 146px;
   margin-bottom: 0px;
   font-weight: 400;
   font-size: 10px;
@@ -128,7 +122,6 @@
 
 @media screen and (min-width: 768px) {
   .lead {
-    background: red;
   }
   .lead__title {
     margin-left: 24px;
@@ -151,29 +144,68 @@
   }
 
   .lead__main-illustration {
-    width: 768px;
-    height: 480px;
-    margin-left: 0px;
-    margin-right: 0px;
     margin-top: 56px;
   }
 
   .lead__caption {
-    margin-left: 24px;
-    margin-right: 586px;
+    margin-left: 24px; 
     margin-bottom: 0px;
   }
 }
 
 @media screen and (min-width: 1024px) {
   .lead {
-    background: green;
   }
-  
+  .lead__title {
+    margin-left: 152px;
+    margin-right: 152px;
+    margin-bottom: 0px;
+  }
+
+  .lead__subtitle {
+    margin-left: 192px;
+    margin-right: 192px;
+    margin-bottom: 0px; 
+  }
+
+  .lead__main-illustration {
+    
+    
+    margin-left: 48px;
+    margin-right: 48px;
+  }
+
+  .lead__caption {
+    margin-left: 48px;
+    margin-bottom: 0px;
+  }
 }
 
 @media screen and (min-width: 1280px) {
   .lead {
-    background: yellow;
+  }
+  .lead__title {
+    margin-left: 280px;
+    margin-right: 280px;
+    margin-bottom: 0px;
+    margin-top: 56px;
+  }
+
+  .lead__subtitle {
+    margin-left: 320px;
+    margin-right: 320px;
+    margin-bottom: 0px; 
+  }
+
+  .lead__main-illustration {
+    margin-left: 148px;
+    margin-right: 148px;
+    margin-top: 64px;
+    
+  }
+
+  .lead__caption {
+    margin-left: 148px;
+    margin-bottom: 0px;
   }
 }
