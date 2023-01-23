@@ -1,13 +1,18 @@
-:root { font-family: 'Inter', sans-serif;
-  color: #FFFFFF; }
+:root {
+  font-family: 'Inter', sans-serif;
+  color: #FFFFFF;
+}
+
 @supports (font-variation-settings: normal) {
-  :root { font-family: 'Inter var', sans-serif; 
-    color: #FFFFFF;}
-  
+  :root {
+    font-family: 'Inter var', sans-serif;
+    color: #FFFFFF;
+  }
+
 }
 
 .page {
-  background: #2A2C2F;  
+  background: #2A2C2F;
 }
 
 .header {
@@ -87,12 +92,12 @@
   font-weight: 900;
   font-size: 40px;
   line-height: 44px;
-  text-align: center;  
+  text-align: center;
 }
 
 .lead__subtitle {
   margin-left: 16px;
-  margin-right: 16px;;
+  margin-right: 16px;
   margin-top: 16px;
   margin-bottom: 0px;
   font-weight: 400;
@@ -119,4 +124,56 @@
   line-height: 14px;
   letter-spacing: 1.5px;
   text-transform: uppercase;
+}
+
+@media screen and (min-width: 768px) {
+  .lead {
+    background: red;
+  }
+  .lead__title {
+    margin-left: 24px;
+    margin-right: 24px;
+    margin-bottom: 0px;
+    font-size: 96px;
+    line-height: 100px;
+    text-align: center;
+  }
+
+  .lead__subtitle {
+    margin-left: 64px;
+    margin-right: 64px;
+    margin-top: 32px;
+    margin-bottom: 0px;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 36px;
+    text-align: center;
+  }
+
+  .lead__main-illustration {
+    width: 768px;
+    height: 480px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 56px;
+  }
+
+  .lead__caption {
+    margin-left: 24px;
+    margin-right: 586px;
+    margin-bottom: 0px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .lead {
+    background: green;
+  }
+  
+}
+
+@media screen and (min-width: 1280px) {
+  .lead {
+    background: yellow;
+  }
 }
