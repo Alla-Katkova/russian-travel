@@ -1,5 +1,13 @@
+:root { font-family: 'Inter', sans-serif;
+  color: #FFFFFF; }
+@supports (font-variation-settings: normal) {
+  :root { font-family: 'Inter var', sans-serif; 
+    color: #FFFFFF;}
+  
+}
+
 .page {
-  background: #2A2C2F;
+  background: #2A2C2F;  
 }
 
 .header {
@@ -20,18 +28,14 @@
   display: flex;
   justify-content: space-between;
   padding-top: 17px;
-
 }
 
 .header__lang-link {
-  font-family: 'Inter';
-  font-style: normal;
+  color: #FFFFFF;
   font-weight: 400;
   font-size: 18px;
   line-height: 20px;
   text-align: right;
-  color: #FFFFFF;
-
 }
 
 .header__lang-link:last-child {
@@ -73,68 +77,46 @@
   }
 }
 
-
-
-
-
-
 .lead {
-  width: 320px;
-  height: 406px;
-  margin-top: 91px;
+  margin-top: 48px;
 }
 
 .lead__title {
-  width: 288px;
-  height: 88px;
-  margin-left: 18px;
-  margin-top: 91px;
-
-  font-family: 'Inter';
-  font-style: normal;
+  margin-left: 16px;
+  margin-right: 16px;
   font-weight: 900;
   font-size: 40px;
   line-height: 44px;
-  text-align: center;
-  color: #FFFFFF;
+  text-align: center;  
 }
 
 .lead__subtitle {
-  width: 288px;
-  height: 40px;
-  margin-left: 18px;
-  margin-top: 195px;
-
-  font-family: 'Inter';
-  font-style: normal;
+  margin-left: 16px;
+  margin-right: 16px;;
+  margin-top: 16px;
+  margin-bottom: 0px;
   font-weight: 400;
   font-size: 16px;
   line-height: 20px;
   text-align: center;
-
-  color: #FFFFFF;
 }
 
 .lead__main-illustration {
   width: 320px;
   height: 200px;
-  margin-left: 0px;
-  margin-top: 275px;
+  margin-left: 2px;
+  margin-right: 2px;
+  margin-top: 40px;
 }
 
 .lead__caption {
-  width: 158px;
-  height: 14px;
-  margin-left: 18px;
-  margin-top: 483px;
-
-  font-family: 'Inter';
-  font-style: normal;
+  margin-left: 16px;
+  margin-top: 8px;
+  margin-right: 146px;
+  margin-bottom: 0px;
   font-weight: 400;
   font-size: 10px;
   line-height: 14px;
   letter-spacing: 1.5px;
   text-transform: uppercase;
-
-  color: #FFFFFF;
 }
