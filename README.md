@@ -8,4 +8,4 @@
 Проект сделан для расширений: 320,768,1024,1280.
 
 **GitHub**
-[Ссылка на проект на GitHub](https://)
+[Ссылка на проект на GitHub]( https://alla-katkova.github.io/russian-travel/)
