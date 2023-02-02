@@ -1,0 +1,17 @@
+.footer__links-list {
+  flex-direction: column;
+  align-items: flex-start;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 24px;
+  padding-left: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+@media screen and (min-width: 768px) {
+  .footer__links-list {
+    flex-direction: row;
+    display: flex;
+  }
+}

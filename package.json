@@ -1,0 +1,24 @@
+{
+  "name": "russian-travel",
+  "version": "1.0.0",
+  "description": "### Описание проекта:  Одностраничный сайт, рассказывающий про путешествие по России. Сайт сделан по проекту, размещенному в Figma [Ссылка на макет в Figma](https://www.figma.com/file/5S2WSbEFL6awjVWJ0NWL8Q/Sprint-3_-Russia-_-desktop-mobile?node-id=28503%3A0).",
+  "main": "index.js",
+  "scripts": {
+    "start": "css-to-bem-file-structure style.css",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Alla-Katkova/russian-travel.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Alla-Katkova/russian-travel/issues"
+  },
+  "homepage": "https://github.com/Alla-Katkova/russian-travel#readme",
+  "devDependencies": {
+    "css-to-bem-file-structure": "^0.0.2"
+  }
+}

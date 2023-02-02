@@ -1,0 +1,17 @@
+.footer-links-list-item {
+  list-style-type: none;
+  margin-top: 32px;
+}
+
+.footer-links-list-item:first-child {
+  margin-top: 0px;
+}
+@media screen and (min-width: 768px) {
+  .footer-links-list-item {
+    margin-top: 0px;
+    margin-right: 18px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+  }
+}
