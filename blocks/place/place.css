@@ -17,7 +17,7 @@
     margin-bottom: 73px;
   }
   .place:last-child {
-    margin-top: -8px
+    margin-top: -8px;
   }
 
   .place:first-child {
@@ -36,7 +36,7 @@
   }
 
   .place:last-child {
-    margin-top: 0px
+    margin-top: 0px;
   }
 }
 @media screen and (min-width: 1280px) {
