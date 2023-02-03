@@ -3,9 +3,20 @@
   font-size: 16px;
   line-height: 162%;
   margin-top: 0px;
+  margin-left: 16px;
+  margin-right: 16px;
 }
+
+@media screen and (min-width: 768px) {
+  .place__paragraphs {
+  margin-left: 0px;
+  margin-right: 0px;
+  }
+}
+
 @media screen and (min-width: 1024px) {
   .place__paragraphs {
     font-size: 18px;
+    
   }
 }
