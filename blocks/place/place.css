@@ -3,7 +3,6 @@
   flex-direction: column;
   margin-top: 0px;
   margin-bottom: 53px;
-  
 }
 
 .place:first-child {
@@ -16,9 +15,6 @@
     column-gap: 28px;
     row-gap: 48px;
     margin-bottom: 73px;
-  }
-  .place:last-child {
-    margin-top: -8px;
   }
 
   .place:first-child {
@@ -35,11 +31,8 @@
     row-gap: 48px;
     margin-bottom: 80px;
   }
-
-  .place:last-child {
-    margin-top: 0px;
-  }
 }
+
 @media screen and (min-width: 1280px) {
   .place {
     grid-template-columns: minmax(460px, 1fr) minmax(min-content, max-content);
