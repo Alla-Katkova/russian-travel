@@ -4,11 +4,12 @@
   font-size: 19px;
   line-height: 20px;
   text-align: right;
+  text-decoration: none;
+  
 }
 
 .header__lang-link:last-child {
-  margin-left: 18px;
-  text-decoration: none;
+  margin-left: 18px; 
 }
 
 .header__lang-link:hover {
