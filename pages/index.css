@@ -39,4 +39,4 @@
 @import url(../blocks/footer/__copyright/footer__copyright.css);
 @import url(../blocks/footer/__links/footer__links.css);
 @import url(../blocks/root/root.css);
-@import url(../blocks/header/__lang-link-selected/header__lang-link_selected.css);
+@import url(../blocks/header/__lang-link/_selected/header__lang-link_selected.css);
