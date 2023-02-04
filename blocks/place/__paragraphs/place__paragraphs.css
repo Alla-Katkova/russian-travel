@@ -9,14 +9,13 @@
 
 @media screen and (min-width: 768px) {
   .place__paragraphs {
-  margin-left: 0px;
-  margin-right: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
   }
 }
 
 @media screen and (min-width: 1024px) {
   .place__paragraphs {
     font-size: 18px;
-    
   }
 }
